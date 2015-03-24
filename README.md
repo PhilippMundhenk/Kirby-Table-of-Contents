@@ -1,7 +1,7 @@
 #Kirby Table of Contents
 ##Quick Reference
 Table of Contents: (toc: 5)<br/>
-number indicates the maximum level to be included
+number indicates the maximum level to be included, always starts at level 2
 
 Headline 1: (l1: Headline1)<br/>
 Headline 2: (l2: Headline2)<br/>
