@@ -3,10 +3,10 @@
 Table of Contents: (toc: 5)
 number indicates the maximum level to be included
 
-Headline 1: (l1: Headline1)
-Headline 2: (l2: Headline2)
-Headline 3: (l3: Headline3)
-Headline 4: (l4: Headline4)
+Headline 1: (l1: Headline1)<br>
+Headline 2: (l2: Headline2)<br>
+Headline 3: (l3: Headline3)<br>
+Headline 4: (l4: Headline4)<br>
 Headline 5: (l5: Headline5)
 
 ##Full Documentation
