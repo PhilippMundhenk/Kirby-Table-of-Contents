@@ -9,5 +9,8 @@ Headline 3: (l3: Headline3)<br/>
 Headline 4: (l4: Headline4)<br/>
 Headline 5: (l5: Headline5)
 
-##Full Documentation
+##Installation
+copy to your kirby/site/tags folder
+
+##Full Documentation & Demo
 Please find the documentation and demo here: [mundhenk.org](http://mundhenk.org/blog/kirby-table-of-contents)
