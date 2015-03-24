@@ -1,12 +1,12 @@
 #Kirby Table of Contents
 ##Quick Reference
-Table of Contents: (toc: 5)
+Table of Contents: (toc: 5)<br/>
 number indicates the maximum level to be included
 
-Headline 1: (l1: Headline1)<br>
-Headline 2: (l2: Headline2)<br>
-Headline 3: (l3: Headline3)<br>
-Headline 4: (l4: Headline4)<br>
+Headline 1: (l1: Headline1)<br/>
+Headline 2: (l2: Headline2)<br/>
+Headline 3: (l3: Headline3)<br/>
+Headline 4: (l4: Headline4)<br/>
 Headline 5: (l5: Headline5)
 
 ##Full Documentation
