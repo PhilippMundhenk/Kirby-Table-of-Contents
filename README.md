@@ -1,2 +1,2 @@
 #Documentation
-Please find the documentation here: http://mundhenk.org/blog/kirby-table-of-contents
+Please find the documentation and demo here: http://mundhenk.org/blog/kirby-table-of-contents
