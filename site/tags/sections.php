@@ -1,11 +1,5 @@
 <?php
 
-kirbytext::$tags['page'] = array(
-  'html' => function($tag) {
-    return '<h1><a name="' . $tag->attr('page') . '">'. $tag->attr('page') . '</a></h1>';
-  }
-);
-
 kirbytext::$tags['l1'] = array(
   'html' => function($tag) {
     return '<h1><a name="' . $tag->attr('l1') . '">'. $tag->attr('l1') . '</a></h1>';
