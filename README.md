@@ -14,4 +14,4 @@ Headline 6: (l6: Headline6)
 copy to your kirby/site/tags folder
 
 ##Full Documentation & Demo
-Please find the documentation and demo here: [mundhenk.org](http://mundhenk.org/blog/kirby-table-of-contents)
+Please find the documentation and demo here: [www.mundhenk.org](http://www.mundhenk.org/blog/kirby-table-of-contents)
