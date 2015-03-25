@@ -30,6 +30,12 @@ kirbytext::$tags['l5'] = array(
   }
 );
 
+kirbytext::$tags['l6'] = array(
+  'html' => function($tag) {
+    return '<h6><a name="' . $tag->attr('l6') . '">'. $tag->attr('l6') . '</a></h6>';
+  }
+);
+
 kirbytext::$tags['toc'] = array(
   'html' => function($tag) {
 
@@ -38,9 +44,9 @@ kirbytext::$tags['toc'] = array(
     foreach($tag->page()->content() as $link) {
 	  $cnt+=1;
       if($cnt==3) {
-		preg_match_all("/\(l[1-5]?: .*\)/", $link, $headings);
+		preg_match_all("/\(l[1-6]?: .*\)/", $link, $headings);
 		foreach ($headings[0] as $heading) {
-			$name = preg_split("/\(l[1-5]?: /",$heading);
+			$name = preg_split("/\(l[1-6]?: /",$heading);
 			$name = preg_split("/\)/",$name[1]);
 			$link = normalizer_normalize( $name[0], Normalizer::FORM_C );
 			$link = str_replace(" ", "%20", $link);
