@@ -56,7 +56,7 @@ kirbytext::$tags['toc'] = array(
 			$number = preg_split("/: .*\)/",$number[1]);
 			$number = $number[0];
 			
-			if($number < $tag->attr('toc'))
+			if($number <= $tag->attr('toc'))
 			{
 				for ($x = 2; $x < $number; $x++) {
 				  $html .= '| ';
