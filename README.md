@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/release/PhilippMundhenk/Kirby-Table-of-Contents)](https://github.com/PhilippMundhenk/Kirby-Table-of-Contents/releases) 
+[![GitHub release](https://img.shields.io/github/release/PhilippMundhenk/Kirby-Table-of-Contents.svg)](https://github.com/PhilippMundhenk/Kirby-Table-of-Contents/releases) 
 
 #Kirby Table of Contents
 ##Quick Reference
