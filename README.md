@@ -1,3 +1,5 @@
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/PhilippMundhenk/Kirby-Table-of-Contents/releases)
+
 #Kirby Table of Contents
 ##Quick Reference
 Table of Contents: (toc: 6)<br/>
