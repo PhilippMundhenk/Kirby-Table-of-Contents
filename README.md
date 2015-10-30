@@ -1,4 +1,5 @@
-[![GitHub release](https://img.shields.io/github/release/PhilippMundhenk/Kirby-Table-of-Contents.svg)](https://github.com/PhilippMundhenk/Kirby-Table-of-Contents/releases) [![GitHub issues](https://img.shields.io/github/issues/PhilippMundhenk/Kirby-Table-of-Contents.svg)](https://github.com/PhilippMundhenk/Kirby-Table-of-Contents) [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/PhilippMundhenk/Kirby-Table-of-Contents/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/PhilippMundhenk/Kirby-Table-of-Contents.svg)](https://github.com/PhilippMundhenk/Kirby-Table-of-Contents/releases) [![GitHub issues](https://img.shields.io/github/issues/PhilippMundhenk/Kirby-Table-of-Contents.svg)](https://github.com/PhilippMundhenk/Kirby-Table-of-Contents/issues) [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/PhilippMundhenk/Kirby-Table-of-Contents/blob/master/LICENSE)
+
 #Kirby Table of Contents
 ##Quick Reference
 Table of Contents: (toc: 6)<br/>
