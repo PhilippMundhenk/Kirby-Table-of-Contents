@@ -14,9 +14,9 @@ Headline 6: (l6: Headline6)
 
 ##Additional Options
 The following are additional options for formatting the table of contents and the contained links
-- levelchar: Allows to change the character used to separate different levels in the table of contents, usage: *levelchar: >*, *levelchar: space*
+- levelchar: Allows to change the character used to separate different levels in the table of contents, usage: *levelchar: >* or *levelchar: space*
 
-Take not that the following options change the link behavior and thus need to be added to all tags that are supposed to work together, so the (toc), as well as all (l1), (l2), etc.
+Note that the following options change the link behavior and thus need to be added to all tags that are supposed to work together, so the (toc), as well as all (l1), (l2), etc.
 - split: Allows to change the replacement character for a space, example usage: *split: -*
 - lowercase: Allows to change all letters in the link to lowercase, usage: *lowercase: 1*
 
