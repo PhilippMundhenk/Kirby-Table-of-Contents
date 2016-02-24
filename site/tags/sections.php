@@ -105,13 +105,18 @@ kirbytext::$tags['l6'] = array(
 kirbytext::$tags['toc'] = array(
   'attr' => array(
     'split',
-    'lowercase'
+    'lowercase',
+    'levelchar'
   ),
   'html' => function($tag) {
 
     $html = "";
 	$cnt = 0;
 	$splitchar = $tag->attr('split', "%20");
+	$levelchar = $tag->attr('levelchar', '|');
+	if(strcmp($levelchar,"space")) {
+		$levelchar="&nbsp;";
+	}
     foreach($tag->page()->content() as $link) {
 	  $cnt+=1;
       if($cnt==3) {
@@ -137,7 +142,7 @@ kirbytext::$tags['toc'] = array(
 			if($number <= $tag->attr('toc'))
 			{
 				for ($x = 2; $x < $number; $x++) {
-				  $html .= '| ';
+				  $html .= $levelchar.' ';
 				}
 
 				$name = preg_replace("/\ split: ./", "", $name[0]);

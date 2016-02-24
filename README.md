@@ -13,9 +13,17 @@ Headline 5: (l5: Headline5)<br/>
 Headline 6: (l6: Headline6)
 
 ##Additional Options
-The following are additional formatting options for the resulting link. Take not that these options need to be added to all tags that are supposed to work together, so the (toc), as well as all (l1), (l2), etc.
+The following are additional options for formatting the table of contents and the contained links
+- levelchar: Allows to change the character used to separate different levels in the table of contents, usage: *levelchar: >*, *levelchar: space*
+
+Take not that the following options change the link behavior and thus need to be added to all tags that are supposed to work together, so the (toc), as well as all (l1), (l2), etc.
 - split: Allows to change the replacement character for a space, example usage: *split: -*
 - lowercase: Allows to change all letters in the link to lowercase, usage: *lowercase: 1*
+
+###Example<br/>
+(toc:6 split: - lowercase: 1 levelchar: >)<br/>
+(l2: Test testä? split: - lowercase: 1)<br/>
+(l3: Test2 testä? split: - lowercase: 1)<br/>
 
 ##Installation
 copy to your kirby/site/tags folder
